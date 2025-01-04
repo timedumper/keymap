@@ -1,0 +1,551 @@
+<svg width="1390" height="523" viewBox="0 0 1390 523" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>/* start glyphs */
+<svg id="mdil:volume-minus">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdil-volume-minus" viewBox="0 0 24 24"><path d="M2,9H6L10,5H12V20H10L6,16H2V9M3,15H6.41L10.41,19H11V6H10.41L6.41,10H3V15M14,13V12H21V13H14Z" /></svg>
+</svg>
+<svg id="mdil:volume-plus">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdil-volume-plus" viewBox="0 0 24 24"><path d="M2,9H6L10,5H12V20H10L6,16H2V9M3,15H6.41L10.41,19H11V6H10.41L6.41,10H3V15M17,16V13H14V12H17V9H18V12H21V13H18V16H17Z" /></svg>
+</svg>
+<svg id="phosphor:regular/align-center-horizontal-simple">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,80H136V48a8,8,0,0,0-16,0V80H48A16,16,0,0,0,32,96v64a16,16,0,0,0,16,16h72v32a8,8,0,0,0,16,0V176h72a16,16,0,0,0,16-16V96A16,16,0,0,0,208,80Zm0,80H48V96H208v64Z"/></svg>
+</svg>
+<svg id="phosphor:regular/align-left-simple">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M40,56V200a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0ZM240,96v64a16,16,0,0,1-16,16H72a16,16,0,0,1-16-16V96A16,16,0,0,1,72,80H224A16,16,0,0,1,240,96Zm-16,64V96H72v64H224Z"/></svg>
+</svg>
+<svg id="phosphor:regular/align-right-simple">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,56V200a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0ZM200,96v64a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V96A16,16,0,0,1,32,80H184A16,16,0,0,1,200,96Zm-16,0H32v64H184Z"/></svg>
+</svg>
+<svg id="phosphor:regular/arrow-down">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,149.66l-72,72a8,8,0,0,1-11.32,0l-72-72a8,8,0,0,1,11.32-11.32L120,196.69V40a8,8,0,0,1,16,0V196.69l58.34-58.35a8,8,0,0,1,11.32,11.32Z"/></svg>
+</svg>
+<svg id="phosphor:regular/arrow-fat-up">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,114.34l-96-96a8,8,0,0,0-11.32,0l-96,96A8,8,0,0,0,32,128H72v80a16,16,0,0,0,16,16h80a16,16,0,0,0,16-16V128h40a8,8,0,0,0,5.66-13.66ZM176,112a8,8,0,0,0-8,8v88H88V120a8,8,0,0,0-8-8H51.31L128,35.31,204.69,112Z"/></svg>
+</svg>
+<svg id="phosphor:regular/arrow-left">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"/></svg>
+</svg>
+<svg id="phosphor:regular/arrow-right">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg>
+</svg>
+<svg id="phosphor:regular/arrow-up">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,117.66a8,8,0,0,1-11.32,0L136,59.31V216a8,8,0,0,1-16,0V59.31L61.66,117.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0l72,72A8,8,0,0,1,205.66,117.66Z"/></svg>
+</svg>
+<svg id="phosphor:regular/command">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M180,144H160V112h20a36,36,0,1,0-36-36V96H112V76a36,36,0,1,0-36,36H96v32H76a36,36,0,1,0,36,36V160h32v20a36,36,0,1,0,36-36ZM160,76a20,20,0,1,1,20,20H160ZM56,76a20,20,0,0,1,40,0V96H76A20,20,0,0,1,56,76ZM96,180a20,20,0,1,1-20-20H96Zm16-68h32v32H112Zm68,88a20,20,0,0,1-20-20V160h20a20,20,0,0,1,0,40Z"/></svg>
+</svg>
+<svg id="phosphor:regular/control">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,125.66a8,8,0,0,1-11.32,0L128,59.31,61.66,125.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0l72,72A8,8,0,0,1,205.66,125.66Z"/></svg>
+</svg>
+<svg id="phosphor:regular/magnifying-glass-minus">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,112a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h64A8,8,0,0,1,152,112Zm77.66,117.66a8,8,0,0,1-11.32,0l-50.06-50.07a88.11,88.11,0,1,1,11.31-11.31l50.07,50.06A8,8,0,0,1,229.66,229.66ZM112,184a72,72,0,1,0-72-72A72.08,72.08,0,0,0,112,184Z"/></svg>
+</svg>
+<svg id="phosphor:regular/magnifying-glass-plus">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,112a8,8,0,0,1-8,8H120v24a8,8,0,0,1-16,0V120H80a8,8,0,0,1,0-16h24V80a8,8,0,0,1,16,0v24h24A8,8,0,0,1,152,112Zm77.66,117.66a8,8,0,0,1-11.32,0l-50.06-50.07a88.11,88.11,0,1,1,11.31-11.31l50.07,50.06A8,8,0,0,1,229.66,229.66ZM112,184a72,72,0,1,0-72-72A72.08,72.08,0,0,0,112,184Z"/></svg>
+</svg>
+<svg id="phosphor:regular/option">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,192a8,8,0,0,1-8,8H160.94a15.92,15.92,0,0,1-14.31-8.84L95.06,88H32a8,8,0,0,1,0-16H95.06a15.92,15.92,0,0,1,14.31,8.84L160.94,184H224A8,8,0,0,1,232,192ZM152,88h72a8,8,0,0,0,0-16H152a8,8,0,0,0,0,16Z"/></svg>
+</svg>
+<svg id="phosphor:regular/play-pause">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,64V192a8,8,0,0,1-16,0V64a8,8,0,0,1,16,0Zm40-8a8,8,0,0,0-8,8V192a8,8,0,0,0,16,0V64A8,8,0,0,0,224,56Zm-80,72a15.76,15.76,0,0,1-7.33,13.34L48.48,197.49A15.91,15.91,0,0,1,24,184.15V71.85A15.91,15.91,0,0,1,48.48,58.51l88.19,56.15A15.76,15.76,0,0,1,144,128Zm-16.18,0L40,72.08V183.93Z"/></svg>
+</svg>
+<svg id="phosphor:regular/speaker-simple-slash">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M192,152V104a8,8,0,0,1,16,0v48a8,8,0,0,1-16,0Zm40-72a8,8,0,0,0-8,8v80a8,8,0,0,0,16,0V88A8,8,0,0,0,232,80ZM221.92,210.62a8,8,0,1,1-11.84,10.76L168,175.09V224a8,8,0,0,1-12.91,6.31L85.25,176H40a16,16,0,0,1-16-16V96A16,16,0,0,1,40,80H81.55L50.08,45.38A8,8,0,0,1,61.92,34.62ZM152,157.49,96.1,96H40v64H88a7.94,7.94,0,0,1,4.91,1.69L152,207.64ZM125.06,69.31l26.94-21v58.47a8,8,0,0,0,16,0V32a8,8,0,0,0-12.91-6.31l-39.85,31a8,8,0,0,0,9.82,12.63Z"/></svg>
+</svg>
+<svg id="phosphor:thin/prohibit">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,28A100,100,0,1,0,228,128,100.11,100.11,0,0,0,128,28Zm92,100a91.67,91.67,0,0,1-24.21,62.13L65.87,60.21A92,92,0,0,1,220,128ZM36,128A91.67,91.67,0,0,1,60.21,65.87L190.13,195.79A92,92,0,0,1,36,128Z"/></svg>
+</svg>
+</defs>/* end glyphs */
+<style>/* inherit to force styles through use tags */
+svg path {
+    fill: inherit;
+}
+
+/* font and background color specifications */
+svg.keymap {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 14px;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    fill: #24292e;
+}
+
+/* default key styling */
+rect.key {
+    fill: #f6f8fa;
+}
+
+rect.key, rect.combo {
+    stroke: #c9cccf;
+    stroke-width: 1;
+}
+
+/* default key side styling, only used is draw_key_sides is set */
+rect.side {
+    filter: brightness(90%);
+}
+
+/* color accent for combo boxes */
+rect.combo, rect.combo-separate {
+    fill: #cdf;
+}
+
+/* color accent for held keys */
+rect.held, rect.combo.held {
+    fill: #fdd;
+}
+
+/* color accent for ghost (optional) keys */
+rect.ghost, rect.combo.ghost {
+    stroke-dasharray: 4, 4;
+    stroke-width: 2;
+}
+
+text {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+/* styling for layer labels */
+text.label {
+    font-weight: bold;
+    text-anchor: start;
+    stroke: white;
+    stroke-width: 4;
+    paint-order: stroke;
+}
+
+/* styling for optional footer */
+text.footer {
+    text-anchor: end;
+    dominant-baseline: auto;
+    stroke: white;
+    stroke-width: 4;
+    paint-order: stroke;
+}
+
+/* styling for combo tap, and key hold/shifted label text */
+text.combo, text.hold, text.shifted {
+    font-size: 11px;
+}
+
+text.hold {
+    text-anchor: middle;
+    dominant-baseline: auto;
+}
+
+text.shifted {
+    text-anchor: middle;
+    dominant-baseline: hanging;
+}
+
+text.layer-activator {
+    text-decoration: underline;
+}
+
+/* styling for hold/shifted label text in combo box */
+text.combo.hold, text.combo.shifted {
+    font-size: 8px;
+}
+
+/* lighter symbol for transparent keys */
+text.trans {
+    fill: #7b7e81;
+}
+
+/* styling for combo dendrons */
+path.combo {
+    stroke-width: 1;
+    stroke: gray;
+    fill: none;
+}
+
+/* Start Tabler Icons Cleanup */
+/* cannot use height/width with glyphs */
+.icon-tabler > path {
+    fill: inherit;
+    stroke: inherit;
+    stroke-width: 2;
+}
+/* hide tabler's default box */
+.icon-tabler > path[stroke="none"][fill="none"] {
+    visibility: hidden;
+}
+/* End Tabler Icons Cleanup */
+
+svg.keymap { fill: #d1d6db; }
+rect.key { fill: #3f4750; }
+rect.key, rect.combo { stroke: #60666c; }
+rect.combo, rect.combo-separate { fill: #1f3d7a; }
+rect.held, rect.combo.held { fill: #854747; }
+text.label, text.footer { stroke: black; }
+text.trans { fill: #7e8184; }
+path.combo { stroke: #7f7f7f; }
+
+rect.key.tap-dance, rect.combo.tap-dance {
+  fill: #8d6251;
+  stroke: #b39caa;
+}
+
+rect.key.custom-logic-key {
+  fill: #4d8023;
+}
+
+text.action{
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+text.key.tap {
+  dominant-baseline: text-after-edge;
+}
+
+svg.keymap {
+  font-size: 12px;
+}
+
+.key.unused {
+  opacity: 20%;
+}
+
+.key.shifted {
+  dominant-baseline: text-before-edge;
+}
+
+.key.held {
+  opacity: 70%;
+}
+
+.glyph.tap {
+  color: #d1d6db;
+}
+
+.glyph.tap:not(.combo) {
+  y: -13;
+}
+
+.glyph.hold {
+  color: white;
+  y: 16;
+}
+
+.phosphor\:bold\/seal-question {
+  color: red;
+}
+</style>
+<g transform="translate(30, 0)" class="layer-NAV1">
+<text x="0" y="28" class="label" id="NAV1">NAV1:</text>
+<g transform="translate(0, 123)">
+<g transform="translate(50, 33)" class="key keypos-0">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
+</g>
+<g transform="translate(150, 33)" class="key keypos-1">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-1.1em">&quot;next</tspan><tspan x="2" dy="1.1em">app</tspan><tspan x="2" dy="1.1em">window&quot;</tspan>
+</text>
+<text x="0" y="27" class="key hold">&quot;quit app&quot;</text>
+</g>
+<g transform="translate(250, 33)" class="key keypos-2">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-1.1em">&quot;close</tspan><tspan x="2" dy="1.1em">tab/wnd&quot;</tspan>
+</text>
+<text x="0" y="27" class="key hold">&quot;reopen&quot;</text>
+</g>
+<g transform="translate(350, 33)" class="key keypos-3">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="0" y="27" class="key hold">&quot;emoji&quot;</text>
+</g>
+<g transform="translate(450, 33)" class="key keypos-4">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">&quot;refresh&quot;</text>
+<text x="0" y="27" class="key hold">&quot;hard refresh&quot;</text>
+</g>
+<g transform="translate(550, 33)" class="key keypos-5">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-1.1em">&quot;new</tspan><tspan x="2" dy="1.1em">tab&quot;</tspan>
+</text>
+<text x="0" y="27" class="key hold">&quot;new wnd&quot;</text>
+</g>
+<g transform="translate(780, 33)" class="key keypos-6">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;prev</tspan><tspan x="2" dy="1.1em">word&quot;</tspan>
+</text>
+</g>
+<g transform="translate(880, 33)" class="key keypos-7">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;next</tspan><tspan x="2" dy="1.1em">word&quot;</tspan>
+</text>
+</g>
+<g transform="translate(980, 33)" class="key keypos-8">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-1.1em">&quot;del</tspan><tspan x="2" dy="1.1em">left</tspan><tspan x="2" dy="1.1em">word&quot;</tspan>
+</text>
+</g>
+<g transform="translate(1080, 33)" class="key keypos-9">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;del-to</tspan><tspan x="2" dy="1.1em">SOL&quot;</tspan>
+</text>
+</g>
+<g transform="translate(1180, 33)" class="key keypos-10">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
+</g>
+<g transform="translate(1280, 33)" class="key unused keypos-11">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key unused side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key unused"/>
+</g>
+<g transform="translate(50, 99)" class="key keypos-12">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">Esc</text>
+</g>
+<g transform="translate(150, 99)" class="key keypos-13">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-1.1em">QK_LEADER</tspan><tspan x="2" dy="1.1em">[1]</tspan>
+</text>
+<use href="#phosphor:regular/command" xlink:href="#phosphor:regular/command" x="-6" y="15" height="12" width="12.0" class="key hold glyph phosphor:regular/command"/>
+</g>
+<g transform="translate(250, 99)" class="key keypos-14">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">&quot;save&quot;</text>
+<use href="#phosphor:regular/option" xlink:href="#phosphor:regular/option" x="-6" y="15" height="12" width="12.0" class="key hold glyph phosphor:regular/option"/>
+</g>
+<g transform="translate(350, 99)" class="key keypos-15">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-1.1em">QK_</tspan><tspan x="2" dy="1.1em">REPEAT_KEY</tspan>
+</text>
+<use href="#phosphor:regular/arrow-fat-up" xlink:href="#phosphor:regular/arrow-fat-up" x="-6" y="15" height="12" width="12.0" class="key hold glyph phosphor:regular/arrow-fat-up"/>
+</g>
+<g transform="translate(450, 99)" class="key tap-dance keypos-16">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key tap-dance side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key tap-dance"/>
+<text x="2" y="0" class="key tap-dance tap">
+<tspan x="2" dy="-1.1em">1:&quot;find&quot;</tspan><tspan x="2" dy="1.1em">2:&quot;find-in</tspan><tspan x="2" dy="1.1em">files&quot;</tspan>
+</text>
+<use href="#phosphor:regular/control" xlink:href="#phosphor:regular/control" x="-6" y="15" height="12" width="12.0" class="key tap-dance hold glyph phosphor:regular/control"/>
+</g>
+<g transform="translate(550, 99)" class="key custom-logic-key keypos-17">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key custom-logic-key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key custom-logic-key"/>
+<text x="2" y="0" class="key custom-logic-key tap">
+<tspan x="2" dy="-1.1em">app</tspan><tspan x="2" dy="1.1em">switcher</tspan><tspan x="2" dy="1.1em">[3]</tspan>
+</text>
+</g>
+<g transform="translate(780, 99)" class="key keypos-18">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:regular/arrow-left" xlink:href="#phosphor:regular/arrow-left" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:regular/arrow-left"/>
+</g>
+<g transform="translate(880, 99)" class="key keypos-19">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:regular/arrow-down" xlink:href="#phosphor:regular/arrow-down" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:regular/arrow-down"/>
+</g>
+<g transform="translate(980, 99)" class="key keypos-20">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:regular/arrow-up" xlink:href="#phosphor:regular/arrow-up" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:regular/arrow-up"/>
+</g>
+<g transform="translate(1080, 99)" class="key keypos-21">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:regular/arrow-right" xlink:href="#phosphor:regular/arrow-right" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:regular/arrow-right"/>
+</g>
+<g transform="translate(1180, 99)" class="key keypos-22">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
+</g>
+<g transform="translate(1280, 99)" class="key keypos-23">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
+</g>
+<g transform="translate(50, 165)" class="key unused keypos-24">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key unused side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key unused"/>
+</g>
+<g transform="translate(150, 165)" class="key keypos-25">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">&quot;undo&quot;</text>
+</g>
+<g transform="translate(250, 165)" class="key keypos-26">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">&quot;cut&quot;</text>
+</g>
+<g transform="translate(350, 165)" class="key keypos-27">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">&quot;copy&quot;</text>
+</g>
+<g transform="translate(450, 165)" class="key keypos-28">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">&quot;paste&quot;</text>
+</g>
+<g transform="translate(550, 165)" class="key tap-dance keypos-29">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key tap-dance side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key tap-dance"/>
+<text x="2" y="0" class="key tap-dance tap">[2]</text>
+</g>
+<g transform="translate(780, 165)" class="key keypos-30">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-1.1em">&quot;start</tspan><tspan x="2" dy="1.1em">of</tspan><tspan x="2" dy="1.1em">line&quot;</tspan>
+</text>
+</g>
+<g transform="translate(880, 165)" class="key keypos-31">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-1.1em">&quot;end</tspan><tspan x="2" dy="1.1em">of</tspan><tspan x="2" dy="1.1em">line&quot;</tspan>
+</text>
+</g>
+<g transform="translate(980, 165)" class="key keypos-32">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-1.1em">&quot;del</tspan><tspan x="2" dy="1.1em">right</tspan><tspan x="2" dy="1.1em">word&quot;</tspan>
+</text>
+</g>
+<g transform="translate(1080, 165)" class="key keypos-33">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;del-to</tspan><tspan x="2" dy="1.1em">EOL&quot;</tspan>
+</text>
+</g>
+<g transform="translate(1180, 165)" class="key keypos-34">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
+</g>
+<g transform="translate(1280, 165)" class="key unused keypos-35">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key unused side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key unused"/>
+</g>
+<g transform="translate(400, 231)" class="key keypos-36">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
+</g>
+<g transform="translate(500, 231)" class="key held keypos-37">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key held side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key held"/>
+</g>
+<g transform="translate(600, 231)" class="key keypos-38">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
+</g>
+<g transform="translate(730, 231)" class="key keypos-39">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">Space</text>
+</g>
+<g transform="translate(830, 231)" class="key keypos-40">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<text x="2" y="0" class="key tap">Delete</text>
+</g>
+<g transform="translate(930, 231)" class="key keypos-41">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
+</g>
+<g class="combo combopos-0">
+<path d="M400,278 h-54 a6.0,6.0 0 0 1 -6.0,-6.0 v-85" class="combo"/>
+<path d="M400,278 h54 a6.0,6.0 0 0 0 6.0,-6.0 v-85" class="combo"/>
+<rect rx="6" ry="6" x="370" y="265" width="60" height="26" class="combo"/>
+<text x="400" y="278" class="combo tap">
+<tspan x="400" dy="-0.55em">&quot;select</tspan><tspan x="400" dy="1.1em">all&quot;</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="286" y="20" width="28" height="26" class="combo"/>
+<text x="300" y="33" class="combo tap">←</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="386" y="20" width="28" height="26" class="combo"/>
+<text x="400" y="33" class="combo tap">→</text>
+</g>
+<g class="combo combopos-3">
+<path d="M300,66 l-22,15" class="combo"/>
+<path d="M300,66 l22,-15" class="combo"/>
+<rect rx="6" ry="6" x="286" y="53" width="28" height="26" class="combo"/>
+<use href="#phosphor:regular/magnifying-glass-minus" xlink:href="#phosphor:regular/magnifying-glass-minus" x="291" y="57" height="18" width="18.0" class="combo tap glyph phosphor:regular/magnifying-glass-minus"/>
+</g>
+<g class="combo combopos-4">
+<path d="M400,66 l-22,-15" class="combo"/>
+<path d="M400,66 l22,15" class="combo"/>
+<rect rx="6" ry="6" x="386" y="53" width="28" height="26" class="combo"/>
+<use href="#phosphor:regular/magnifying-glass-plus" xlink:href="#phosphor:regular/magnifying-glass-plus" x="391" y="57" height="18" width="18.0" class="combo tap glyph phosphor:regular/magnifying-glass-plus"/>
+</g>
+<g class="combo combopos-5">
+<path d="M350,-21 h-94 a6.0,6.0 0 0 0 -6.0,6.0 v92" class="combo"/>
+<path d="M350,-21 l0,32" class="combo"/>
+<path d="M350,-21 h94 a6.0,6.0 0 0 1 6.0,6.0 v92" class="combo"/>
+<rect rx="6" ry="6" x="305" y="-34" width="90" height="26" class="combo"/>
+<text x="350" y="-21" class="combo tap">&quot;reset-zoom&quot;</text>
+</g>
+<g class="combo combopos-6">
+<path d="M300,99 l-17,0" class="combo"/>
+<path d="M300,99 l17,0" class="combo"/>
+<rect rx="6" ry="6" x="286" y="86" width="28" height="26" class="combo"/>
+<use href="#phosphor:regular/align-left-simple" xlink:href="#phosphor:regular/align-left-simple" x="291" y="90" height="18" width="18.0" class="combo tap glyph phosphor:regular/align-left-simple"/>
+</g>
+<g class="combo combopos-7">
+<path d="M400,99 l-17,0" class="combo"/>
+<path d="M400,99 l17,0" class="combo"/>
+<rect rx="6" ry="6" x="386" y="86" width="28" height="26" class="combo"/>
+<use href="#phosphor:regular/align-right-simple" xlink:href="#phosphor:regular/align-right-simple" x="391" y="90" height="18" width="18.0" class="combo tap glyph phosphor:regular/align-right-simple"/>
+</g>
+<g class="combo combopos-8">
+<path d="M330,298 h-90 a6.0,6.0 0 0 1 -6.0,-6.0 v-171" class="combo"/>
+<path d="M330,298 h138 a6.0,6.0 0 0 0 6.0,-6.0 v-171" class="combo"/>
+<rect rx="6" ry="6" x="316" y="285" width="28" height="26" class="combo"/>
+<use href="#phosphor:regular/align-center-horizontal-simple" xlink:href="#phosphor:regular/align-center-horizontal-simple" x="321" y="289" height="18" width="18.0" class="combo tap glyph phosphor:regular/align-center-horizontal-simple"/>
+</g>
+<g class="combo combopos-9">
+<path d="M350,-54 h-104 a6.0,6.0 0 0 0 -6.0,6.0 v59" class="combo"/>
+<path d="M350,-54 h104 a6.0,6.0 0 0 1 6.0,6.0 v59" class="combo"/>
+<rect rx="6" ry="6" x="336" y="-67" width="28" height="26" class="combo"/>
+<use href="#phosphor:regular/play-pause" xlink:href="#phosphor:regular/play-pause" x="341" y="-63" height="18" width="18.0" class="combo tap glyph phosphor:regular/play-pause"/>
+</g>
+<g class="combo tap-dance combopos-10">
+<path d="M310,331 h-54 a6.0,6.0 0 0 1 -6.0,-6.0 v-204" class="combo"/>
+<path d="M310,331 h34 a6.0,6.0 0 0 0 6.0,-6.0 v-204" class="combo"/>
+<path d="M310,331 h134 a6.0,6.0 0 0 0 6.0,-6.0 v-204" class="combo"/>
+<rect rx="6" ry="6" x="255" y="318" width="110" height="26" class="combo tap-dance"/>
+<text x="310" y="331" class="combo tap-dance tap">&quot;expose-app&quot;</text>
+<text x="310" y="340" class="combo tap-dance hold">&quot;expose-all&quot;</text>
+</g>
+</g>
+</g>
+</svg>

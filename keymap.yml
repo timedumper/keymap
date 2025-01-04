@@ -1,0 +1,183 @@
+aliases:
+  - &unused { t: "", type: "unused" }
+  - &held { t: "", type: "held" }
+  - &td { t: "", type: "tap-dance" }
+  - &cust { t: "", type: "custom-logic-key" }
+
+  - &i_todo "❓"
+  - &i_nokey "$$phosphor:thin/prohibit$$"
+  - &i_alt "$$phosphor:regular/option$$"
+  - &i_gui "$$phosphor:regular/command$$"
+  - &i_sft "$$phosphor:regular/arrow-fat-up$$"
+  - &i_ctl "$$phosphor:regular/control$$"
+  - &i_left "$$phosphor:regular/arrow-left$$"
+  - &i_right "$$phosphor:regular/arrow-right$$"
+  - &i_up "$$phosphor:regular/arrow-up$$"
+  - &i_down "$$phosphor:regular/arrow-down$$"
+  - &i_togg_mute "$$phosphor:regular/speaker-simple-slash$$"
+  - &i_vol_up "$$mdil:volume-plus$$"
+  - &i_vol_down "$$mdil:volume-minus$$"
+  - &i_emoji "$$phosphor:regular/smiley$$"
+
+layout:
+  cols_thumbs_notation: 333333+3> 3<+333333
+
+layers:
+  BASE:
+    # top row (left half)
+    - [Tab, Q, W, E, R, T]
+
+    # top row (right half)
+    - [ Y, U, I, O, P, *unused ]
+
+    # home row (left half)
+    - [Esc, A, S, D, {t: F, h: DIGITS}, G]
+
+    # home row (right half)
+    - [ H, J, K, L, {s: "\"", t: "'"}, Ent]
+
+    # bottom row (left half)
+    - [ *unused, Z, X, C, V, B]
+
+    # bottom row (right half)
+    - [ N, M, ",", ., /, *unused ]
+
+    # thumb row
+    - {t: "OSL(IDE2)", h: "1:IDE1 2:FW", type: "tap-dance"}
+    - {t: "Esc", h: "1:NAV1 2:NAV2", type: "tap-dance"}
+
+    - {t: "1:OSL(shft) 2:CAPS_WORD 3:CAPSLOCK", h: "1:SYM⠤ 2:DIG⠤", type: "tap-dance"}
+    - {h: IDE,   t: Space}
+    - {t: Backspace, h: "TKL"}
+    - {h: RMODS,   t: ""}
+
+  NAV1:
+    # top row (left half)
+    - *i_nokey # Tab
+    - { t: '"next app window"', h: '"quit app"' }
+    - { t: '"close tab/wnd"', h: '"reopen"'}
+    - { h: '"emoji"' }
+    - { t: '"refresh"', h: '"hard refresh"' }
+    - { t: '"new tab"', h: '"new wnd"' }
+
+    # top row (right half)
+    - [ '"prev word"', '"next word"', '"del left word"', '"del-to SOL"', *i_nokey, *unused ]
+
+    # home row (left half)
+    - "Esc"
+    - { t: "QK_LEADER [1]", h: *i_gui }
+    - { t: '"save"', h: *i_alt }
+    - { t: "QK_ REPEAT_KEY", h: *i_sft }
+    - { <<: *td, t: '1:"find" 2:"find-in files"', h: *i_ctl }
+    - { <<: *cust, t: "app switcher [3]" }
+
+    # home row (right half)
+    - [ *i_left, *i_down, *i_up, *i_right, *i_nokey, *i_nokey ]
+
+    # bottom row (left half)
+    - [ *unused, '"undo"', '"cut"', '"copy"', '"paste"' ]
+    - { <<: *td, t: '[2]' }
+
+    # bottom row (right half)
+    - [ '"start of line"', '"end of line"', '"del right word"', '"del-to EOL"', *i_nokey, *unused ]
+
+    # thumb row
+    - [ *i_nokey, *held , *i_nokey]
+    - [ "Space", "Delete", *i_nokey ]
+
+  NAV2:
+    # top row (left half)
+    - [ *i_nokey, '"cmd+1"','"cmd+2"','"cmd+3"','"cmd+4"','"cmd+5"' ]
+
+    # top row (right half)
+    - *i_nokey
+    - *i_nokey
+    - *i_nokey
+    - *i_nokey
+    - *i_nokey
+    - *unused
+
+    # home row (left half)
+    - *i_nokey
+    - '"prev screen"'
+    - '"open"'
+    - { t: *i_vol_up, h: *i_togg_mute }
+    - { <<: *td, t: '1:"replace" 2:"repl-in files"'}
+    - '"next screen"'
+
+    # home row (right half)
+    - [ *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey ]
+
+    # bottom row (left half)
+    - {t: "", type: "unused"}
+    - *i_nokey
+    - *i_nokey
+    - *i_vol_down
+    - *i_nokey
+    - *i_nokey
+
+    # bottom row (right half)
+    - [ *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey, {t : "", type: "unused"} ]
+    # thumb row
+    - [ *i_nokey, *held, *i_nokey, *i_nokey, *i_nokey, *i_nokey ]
+
+  TKL:
+  # top row (left half)
+  - [ *i_nokey, "-", "=", "[", "]", "\\" ]
+  # top row (right half)
+  - [ "F8", "F4", "F5", "F6", "F9", {t : "", type: "unused"} ]
+  # home row (left half)
+  - [ *i_nokey, { t: "`", h: *i_gui}, { t: "Ins", h: *i_alt}, { t: "Home", h: *i_sft }, { t: "Page Up", h: *i_ctl }, "'" ]
+  # home row (right half)
+  - [ "F7", { t: "F1", h: *i_ctl}, { t: "F2", h: *i_sft}, { t: "F3", h: *i_alt }, { t: "F10", h: *i_gui }, *i_nokey ]
+  # bottom row (left half)
+  - [ {t: "", type: "unused"}, *i_nokey, "Del", "End", "Page Down", *i_nokey ]
+  # bottom row (right half)
+  - [ *i_nokey, "F11", "F12", *i_nokey, *i_nokey, {t : "", type: "unused"} ]
+  # thumb row
+  - [ *i_nokey, *i_nokey, *i_nokey, *i_nokey, *held, *i_nokey ]
+
+  DUMMY:
+    - [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+    - [ 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ]
+    - [ 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ]
+    - [ 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 ]
+    - [ 40, 41 ]
+
+  # EMPTY:
+  #   # top row (left half)
+  #   - [ "", "", "", "", "", "" ]
+  #   # top row (right half)
+  #   - [ "", "", "", "", "", {t : "", type: "unused"} ]
+  #   # home row (left half)
+  #   - [ "", "", "", "", "", "" ]
+  #   # home row (right half)
+  #   - [ "", "", "", "", "", "" ]
+  #   # bottom row (left half)
+  #   - [ {t: "", type: "unused"}, "", "", "", "", "" ]
+  #   # bottom row (right half)
+  #   - [ "", "", "", "", "", {t : "", type: "unused"} ]
+  #   # thumb row
+  #   - [ "", "", "", "", "", "" ]
+
+
+combo-icons:
+  - &i_zoom_in "$$phosphor:regular/magnifying-glass-minus$$"
+  - &i_zoom_out "$$phosphor:regular/magnifying-glass-plus$$"
+  - &i_wm_left_pos "$$phosphor:regular/align-left-simple$$"
+  - &i_wm_right_pos "$$phosphor:regular/align-right-simple$$"
+  - &i_wm_mid_pos "$$phosphor:regular/align-center-horizontal-simple$$"
+  - &i_play_pause "$$phosphor:regular/play-pause$$"
+
+combos:
+  - { p: [27, 28], align: bottom, offset: 1.2, arc_scale: 1.2, dendron: true, width: 60, k: '"select all"', l: ["NAV1"] }
+  - { p: [2, 3], k: "←", l: ["NAV1"] }
+  - { p: [3, 4], k: "→", l: ["NAV1"] }
+  - { p: [14, 3], k: *i_zoom_in, dendron: true, l: ["NAV1"] }
+  - { p: [3, 16], k: *i_zoom_out, dendron: true, l: ["NAV1"] }
+  - { p: [14, 3, 16], k: '"reset-zoom"', align: top, offset: 0.3, width: 90, dendron: true, l: ["NAV1"] }
+  - { p: [14, 15], k: *i_wm_left_pos, dendron: true, l: ["NAV1"] }
+  - { p: [15, 16], k: *i_wm_right_pos, dendron: true, l: ["NAV1"] }
+  - { p: [14, 16], k: *i_wm_mid_pos, arc_scale: 1.2, slide: -0.2, align: bottom, offset: 2.5, dendron: true, l: ["NAV1"] }
+  - { p: [2, 4], k: *i_play_pause, arc_scale: 1.1, align: top, offset: 0.8, dendron: true, l: ["NAV1"] }
+  - { p: [14, 15, 16], k: { t: '"expose-app"', h: '"expose-all"' }, arc_scale: 1, slide: -0.4, align: bottom, offset: 3, width: 110, dendron: true, l: ["NAV1"], type: "tap-dance" }

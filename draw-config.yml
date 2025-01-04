@@ -1,0 +1,89 @@
+draw_config:
+  key_w: 100.0
+  key_h: 66.0
+  split_gap: 30.0
+  combo_w: 28.0
+  combo_h: 26.0
+  key_rx: 6.0
+  key_ry: 6.0
+  dark_mode: true
+  n_columns: 1
+  separate_combo_diagrams: false
+  combo_diagrams_scale: 2
+  inner_pad_w: 2.0
+  inner_pad_h: 2.0
+  outer_pad_w: 30.0
+  outer_pad_h: 56.0
+  line_spacing: 1.1
+  arc_radius: 6.0
+  append_colon_to_layer_header: true
+  small_pad: 4.0 
+  legend_rel_x: 2.0
+  legend_rel_y: 6.0
+  draw_key_sides: true
+  key_side_pars:
+    rel_x: 0
+    rel_y: 6 
+    rel_w: 12
+    rel_h: 20
+    rx: 4
+    ry: 4
+  svg_extra_style: |
+   rect.key.tap-dance, rect.combo.tap-dance {
+     fill: #8d6251;
+     stroke: #b39caa;
+   }
+
+   rect.key.custom-logic-key {
+     fill: #4d8023;
+   }
+   
+   text.action{
+     font-style: italic;
+     text-transform: uppercase;
+   }
+
+   text.key.tap {
+     dominant-baseline: text-after-edge;
+   }
+
+   svg.keymap {
+     font-size: 12px;
+   }
+
+   .key.unused {
+     opacity: 20%;
+   }
+
+   .key.shifted {
+     dominant-baseline: text-before-edge;
+   }
+
+   .key.held {
+     opacity: 70%;
+   }
+
+   .glyph.tap {
+     color: #d1d6db;
+   }
+
+   .glyph.tap:not(.combo) {
+     y: -13;
+   }
+
+   .glyph.hold {
+     color: white;
+     y: 16;
+   }
+
+   .phosphor\:bold\/seal-question {
+     color: red;
+   }
+
+  footer_text: ''
+  shrink_wide_legends: 25
+  style_layer_activators: false
+  glyph_tap_size: 18
+  glyph_hold_size: 12
+  glyph_shifted_size: 10
+  glyphs: {}
