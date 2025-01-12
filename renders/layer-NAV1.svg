@@ -215,6 +215,10 @@ svg.keymap {
   opacity: 70%;
 }
 
+.key.trans {
+  opacity: 50%;
+}
+
 .glyph.tap {
   color: #d1d6db;
 }
@@ -539,6 +543,14 @@ svg.keymap {
 <use href="#phosphor:regular/play-pause" xlink:href="#phosphor:regular/play-pause" x="341" y="-63" height="18" width="18.0" class="combo tap glyph phosphor:regular/play-pause"/>
 </g>
 <g class="combo tap-dance combopos-10">
+<path d="M310,331 h-54 a6.0,6.0 0 0 1 -6.0,-6.0 v-204" class="combo"/>
+<path d="M310,331 h34 a6.0,6.0 0 0 0 6.0,-6.0 v-204" class="combo"/>
+<path d="M310,331 h134 a6.0,6.0 0 0 0 6.0,-6.0 v-204" class="combo"/>
+<rect rx="6" ry="6" x="255" y="318" width="110" height="26" class="combo tap-dance"/>
+<text x="310" y="331" class="combo tap-dance tap">&quot;expose-app&quot;</text>
+<text x="310" y="340" class="combo tap-dance hold">&quot;expose-all&quot;</text>
+</g>
+<g class="combo tap-dance combopos-11">
 <path d="M310,331 h-54 a6.0,6.0 0 0 1 -6.0,-6.0 v-204" class="combo"/>
 <path d="M310,331 h34 a6.0,6.0 0 0 0 6.0,-6.0 v-204" class="combo"/>
 <path d="M310,331 h134 a6.0,6.0 0 0 0 6.0,-6.0 v-204" class="combo"/>

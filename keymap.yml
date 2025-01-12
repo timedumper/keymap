@@ -1,6 +1,7 @@
 aliases:
   - &unused { t: "", type: "unused" }
   - &held { t: "", type: "held" }
+  - &tr { t: "", type: "trans" }
   - &td { t: "", type: "tap-dance" }
   - &cust { t: "", type: "custom-logic-key" }
 
@@ -43,11 +44,11 @@ layers:
     - [ N, M, ",", ., /, *unused ]
 
     # thumb row
-    - {t: "OSL(IDE2)", h: "1:IDE1 2:FW", type: "tap-dance"}
+    - {t: "OSL(IDE-L2)", h: "1:IDE-L1 2:FW", type: "tap-dance"}
     - {t: "Esc", h: "1:NAV1 2:NAV2", type: "tap-dance"}
 
     - {t: "1:OSL(shft) 2:CAPS_WORD 3:CAPSLOCK", h: "1:SYM⠤ 2:DIG⠤", type: "tap-dance"}
-    - {h: IDE,   t: Space}
+    - {h: IDE-R,   t: Space}
     - {t: Backspace, h: "TKL"}
     - {h: RMODS,   t: ""}
 
@@ -110,7 +111,7 @@ layers:
 
     # bottom row (left half)
     - {t: "", type: "unused"}
-    - *i_nokey
+    - {t: '"app settings"'}
     - *i_nokey
     - *i_vol_down
     - *i_nokey
@@ -120,6 +121,54 @@ layers:
     - [ *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey, {t : "", type: "unused"} ]
     # thumb row
     - [ *i_nokey, *held, *i_nokey, *i_nokey, *i_nokey, *i_nokey ]
+
+  IDE-L1:
+  # top row (left half)
+  - [ *i_nokey, *i_nokey, '"type hierarchy"', '"prev match" (VIM)', '"recent files"', '"nav forward"' ]
+  # top row (right half)
+  - [ *tr, *tr, *tr, *tr, *tr, {t : "", type: "unused"} ]
+  # home row (left half)
+  - [ *i_nokey, *i_gui, { t: '"quick doc"', h: *i_alt }, { t: '"next match" (VIM)', h: *i_sft }, { t: '"go-to impl"', h: *i_ctl }, '"nav back"' ]
+  # home row (right half)
+  - [ *tr, *tr, *tr, *tr, *tr,  *tr]
+  # bottom row (left half)
+  - [ {t: "", type: "unused"}, "prev diff", "next diff", *i_nokey, "go-to declaration", *i_nokey ]
+  # bottom row (right half)
+  - [ *tr, *tr, *tr, *tr, *tr, {t : "", type: "unused"} ]
+  # thumb row
+  - [ *held, *i_nokey, *i_nokey, *tr, *tr,  *tr]
+
+  IDE-L2:
+  # top row (left half)
+  - [ *i_nokey, '"view commit"', '"find usages"', '"run"', '"rename symbol"', '"go-to super"' ]
+  # top row (right half)
+  - [ *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey, {t : "", type: "unused"} ]
+  # home row (left half)
+  - [ *i_nokey, '"view log"', '"sel-in proj-view"', *i_nokey, '"call hierarchy"', *i_nokey ]
+  # home row (right half)
+  - [ *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey ]
+  # bottom row (left half)
+  - [ {t: *i_nokey, type: "unused"}, '"build output"', '"run output"', '"debug tools"', *i_nokey, '"hide tool window"' ]
+  # bottom row (right half)
+  - [ *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey, {t : *i_nokey, type: "unused"} ]
+  # thumb row
+  - [ *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey ]
+
+  IDE-RIGHT:
+  # top row (left half)
+  - [ *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey ]
+  # top row (right half)
+  - [ '"unindent"', '"indent"', {t: '"line comment"', h: '"block comment"'}, '"organize imports"', '"find anything"', {t : *i_nokey, type: "unused"} ]
+  # home row (left half)
+  - [ *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey, *i_nokey ]
+  # home row (right half)
+  - [ '"cyclic expand word"', '"quick fixes"', '"goto class"', '"goto file"', '"file structure"', *i_nokey ]
+  # bottom row (left half)
+  - [ {t: *i_nokey, type: "unused"}, *i_nokey, '"markdown todo"', *i_nokey, *i_nokey, *i_nokey ]
+  # bottom row (right half)
+  - [ {t: '"implement"', h: '"override"'}, '"format code"', '"prev error"', '"next error"', '"inline"', {t : *i_nokey, type: "unused"} ]
+  # thumb row
+  - [ *i_nokey, *i_nokey, *i_nokey, *held, *i_nokey, *i_nokey ]
 
   TKL:
   # top row (left half)
@@ -181,3 +230,10 @@ combos:
   - { p: [14, 16], k: *i_wm_mid_pos, arc_scale: 1.2, slide: -0.2, align: bottom, offset: 2.5, dendron: true, l: ["NAV1"] }
   - { p: [2, 4], k: *i_play_pause, arc_scale: 1.1, align: top, offset: 0.8, dendron: true, l: ["NAV1"] }
   - { p: [14, 15, 16], k: { t: '"expose-app"', h: '"expose-all"' }, arc_scale: 1, slide: -0.4, align: bottom, offset: 3, width: 110, dendron: true, l: ["NAV1"], type: "tap-dance" }
+  - { p: [14, 15, 16], k: { t: '"expose-app"', h: '"expose-all"' }, arc_scale: 1, slide: -0.4, align: bottom, offset: 3, width: 110, dendron: true, l: ["NAV1"], type: "tap-dance" }
+  - { p: [7, 8], k: '"prev-edit-loc"', width: 100, dendron: true, align: top, arc_scale: 0.8, slide: -0.5, offset: 0.5, l: ["IDE-RIGHT"] }
+  - { p: [8, 9], k: '"next-edit-loc"', width: 100, dendron: true, align: top, arc_scale: 0.8, slide: 0.5, offset: 0.6, l: ["IDE-RIGHT"] }
+  - { p: [18, 19], k: '"cyclic-expand-work backwards', width: 135, dendron: true, slide: -0.5, align: bottom, offset: 2.3, l: ["IDE-RIGHT"] }
+  - { p: [19, 20], k: '"goto-action', width: 85, dendron: true, align: bottom, arc_scale: 0.8, offset: 2.3, l: ["IDE-RIGHT"] }
+  - { p: [20, 21], k: '"goto-symbol', width: 85, dendron: true, align: bottom, arc_scale: 0.8, offset: 2.3, l: ["IDE-RIGHT"] }
+

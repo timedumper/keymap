@@ -236,63 +236,71 @@ svg.keymap {
   color: red;
 }
 </style>
-<g transform="translate(30, 0)" class="layer-BASE">
-<text x="0" y="28" class="label" id="BASE">BASE:</text>
+<g transform="translate(30, 0)" class="layer-IDE-L2">
+<text x="0" y="28" class="label" id="IDE-L2">IDE-L2:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(50, 33)" class="key keypos-0">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">Tab</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(150, 33)" class="key keypos-1">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">Q</text>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;view</tspan><tspan x="2" dy="1.1em">commit&quot;</tspan>
+</text>
 </g>
 <g transform="translate(250, 33)" class="key keypos-2">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">W</text>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;find</tspan><tspan x="2" dy="1.1em">usages&quot;</tspan>
+</text>
 </g>
 <g transform="translate(350, 33)" class="key keypos-3">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">E</text>
+<text x="2" y="0" class="key tap">&quot;run&quot;</text>
 </g>
 <g transform="translate(450, 33)" class="key keypos-4">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">R</text>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;rename</tspan><tspan x="2" dy="1.1em">symbol&quot;</tspan>
+</text>
 </g>
 <g transform="translate(550, 33)" class="key keypos-5">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">T</text>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;go-to</tspan><tspan x="2" dy="1.1em">super&quot;</tspan>
+</text>
 </g>
 <g transform="translate(780, 33)" class="key keypos-6">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">Y</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(880, 33)" class="key keypos-7">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">U</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(980, 33)" class="key keypos-8">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">I</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(1080, 33)" class="key keypos-9">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">O</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(1180, 33)" class="key keypos-10">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">P</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(1280, 33)" class="key unused keypos-11">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key unused side"/>
@@ -301,159 +309,166 @@ svg.keymap {
 <g transform="translate(50, 99)" class="key keypos-12">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">Esc</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(150, 99)" class="key keypos-13">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">A</text>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;view</tspan><tspan x="2" dy="1.1em">log&quot;</tspan>
+</text>
 </g>
 <g transform="translate(250, 99)" class="key keypos-14">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">S</text>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;sel-in</tspan><tspan x="2" dy="1.1em">proj-view&quot;</tspan>
+</text>
 </g>
 <g transform="translate(350, 99)" class="key keypos-15">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">D</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(450, 99)" class="key keypos-16">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">F</text>
-<text x="0" y="27" class="key hold">DIGITS</text>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;call</tspan><tspan x="2" dy="1.1em">hierarchy&quot;</tspan>
+</text>
 </g>
 <g transform="translate(550, 99)" class="key keypos-17">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">G</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(780, 99)" class="key keypos-18">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">H</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(880, 99)" class="key keypos-19">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">J</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(980, 99)" class="key keypos-20">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">K</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(1080, 99)" class="key keypos-21">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">L</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(1180, 99)" class="key keypos-22">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">&#x27;</text>
-<text x="0" y="-27" class="key shifted">&quot;</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(1280, 99)" class="key keypos-23">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">Ent</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(50, 165)" class="key unused keypos-24">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key unused side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key unused"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key unused tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(150, 165)" class="key keypos-25">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">Z</text>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;build</tspan><tspan x="2" dy="1.1em">output&quot;</tspan>
+</text>
 </g>
 <g transform="translate(250, 165)" class="key keypos-26">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">X</text>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;run</tspan><tspan x="2" dy="1.1em">output&quot;</tspan>
+</text>
 </g>
 <g transform="translate(350, 165)" class="key keypos-27">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">C</text>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-0.55em">&quot;debug</tspan><tspan x="2" dy="1.1em">tools&quot;</tspan>
+</text>
 </g>
 <g transform="translate(450, 165)" class="key keypos-28">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">V</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(550, 165)" class="key keypos-29">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">B</text>
+<text x="2" y="0" class="key tap">
+<tspan x="2" dy="-1.1em">&quot;hide</tspan><tspan x="2" dy="1.1em">tool</tspan><tspan x="2" dy="1.1em">window&quot;</tspan>
+</text>
 </g>
 <g transform="translate(780, 165)" class="key keypos-30">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">N</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(880, 165)" class="key keypos-31">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">M</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(980, 165)" class="key keypos-32">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">,</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(1080, 165)" class="key keypos-33">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">.</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(1180, 165)" class="key keypos-34">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">/</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(1280, 165)" class="key unused keypos-35">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key unused side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key unused"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key unused tap glyph phosphor:thin/prohibit"/>
 </g>
-<g transform="translate(400, 231)" class="key tap-dance keypos-36">
-<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key tap-dance side"/>
-<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key tap-dance"/>
-<text x="2" y="0" class="key tap-dance tap">OSL(IDE-L2)</text>
-<text x="0" y="27" class="key tap-dance hold">1:IDE-L1 2:FW</text>
+<g transform="translate(400, 231)" class="key keypos-36">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
-<g transform="translate(500, 231)" class="key tap-dance keypos-37">
-<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key tap-dance side"/>
-<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key tap-dance"/>
-<text x="2" y="0" class="key tap-dance tap">Esc</text>
-<text x="0" y="27" class="key tap-dance hold">1:NAV1 2:NAV2</text>
+<g transform="translate(500, 231)" class="key keypos-37">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
-<g transform="translate(600, 231)" class="key tap-dance keypos-38">
-<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key tap-dance side"/>
-<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key tap-dance"/>
-<text x="2" y="0" class="key tap-dance tap">
-<tspan x="2" dy="-1.1em">1:OSL(shft)</tspan><tspan x="2" dy="1.1em">2:CAPS_WORD</tspan><tspan x="2" dy="1.1em">3:CAPSLOCK</tspan>
-</text>
-<text x="0" y="27" class="key tap-dance hold">1:SYM⠤ 2:DIG⠤</text>
+<g transform="translate(600, 231)" class="key keypos-38">
+<rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
+<rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(730, 231)" class="key keypos-39">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">Space</text>
-<text x="0" y="27" class="key hold">IDE-R</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(830, 231)" class="key keypos-40">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="2" y="0" class="key tap">Backspace</text>
-<text x="0" y="27" class="key hold">TKL</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 <g transform="translate(930, 231)" class="key keypos-41">
 <rect rx="6" ry="6" x="-48" y="-31" width="96" height="62" class="key side"/>
 <rect rx="4" ry="4" x="-42" y="-27" width="84" height="42" class="key"/>
-<text x="0" y="27" class="key hold">RMODS</text>
+<use href="#phosphor:thin/prohibit" xlink:href="#phosphor:thin/prohibit" x="-7" y="-9" height="18" width="18.0" class="key tap glyph phosphor:thin/prohibit"/>
 </g>
 </g>
 </g>

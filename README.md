@@ -12,16 +12,14 @@
 
  - `[N]` means a "footnote" (see footnote text below the layer image)
 
-## Layers
-
-### Base 
+## Layer: BASE 
 ![](./renders/layer-BASE.svg)
 
-### Main navigation/system-wide shortcuts layer
-
-The right half is mostly text navigation plus cursor keys. The left one is mainly a bunch of system-wide shortcuts that I often use.
+## Layer: NAV1 and NAV2
 
 ![](./renders/layer-NAV1.svg)
+
+The right half is mostly text navigation plus cursor keys. The left one is mainly a bunch of system-wide shortcuts that I often use.
 
 #### [1] Leader sequences
 
@@ -46,14 +44,20 @@ Custom programmed key that works just like app switcher. For instance, on Mac
   - when thumb key is released the `cmd` is also released which deactivates the app switcher
   - pressing and holding this key for half a second while the switcher is active will quit the current app by tapping `Q` (such delay is intentional as it helps with accidental app closures)
  
-#### Additional navigation layer 
-
-This layer is a bit harder to reach (requires double hold instead of a single one) so here I keep some less often used shortcuts that didn't fit on the main layer.
-
-Note: `cmd+N` ones are used to quickly switch between terminal tabs.
-
 ![](./renders/layer-NAV2.svg)
 
-### TKL layer
+This layer is a bit harder to reach (requires double hold instead of a single one) so here I keep some less often used shortcuts that I don't want to be cramped in the main navigaiton layer.
+
+Note: `cmd + <digit>` ones are used to quickly switch between terminal tabs with one hand.
+
+## Layer: IDE L1, IDE L2 and IDE RIGHT
+
+![](./renders/layer-IDE-L1.svg)
+
+![](./renders/layer-IDE-L2.svg)
+
+![](./renders/layer-IDE-RIGHT.svg)
+
+## Layer: TKL
 
 ![](./renders/layer-TKL.svg)
